@@ -6,6 +6,25 @@ Created on Fri Jun  7 15:28:32 2024
 """
 # define functions for operations
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+def get_typing():
+            n1= int(input("Enter first number:"))
+            n2 =int(input("Enter second number:")) 
+            return n1, n2
+
+
 def add(n1, n2):
      result = n1 + n2
      print("The addition of two numbers is:", result)  
@@ -51,16 +70,27 @@ def number_type (result):
     elif result % 2 != 0:
         print ("The number is Odd")
 
-
+# def main():
+#     while True:
+#         display_menu()
+#         operation = int(input("Enter the operation number (1-7): "))
+#         num1, num2 = get_user_input()
+#         result = perform_operation(num1, num2, operation)
+#         print(f"Result: {result}")
+#         print(f"Is result odd? {'Yes' if is_odd(result) else 'No'}")
+#         another_operation = input("Do you want to perform another operation? (y/n): ")
+#         if another_operation.lower() != 'y':
+#             print("Thank you for using the calculator!")
+#             break
 
           
-n1 = int(input("Enter first number:"))
-                 
-n2 =int(input("Enter second number:")) 
-
-result = exp(n1,n2)
-numbertype = number_type(result)
-print ("Assignment Complete")
+def get_typing():
+            n1= int(input("Enter first number:"))
+            n2 =int(input("Enter second number:")) 
+            result = exp(n1,n2)
+            
+# numbertype = number_type(result)
+# print ("Assignment Complete")
 
 
 
